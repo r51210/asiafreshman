@@ -1,1 +1,27 @@
 /* Add here all your CSS customizations */
+@media screen and (min-width: 992px) {
+    #header .header-nav-main nav > ul > li > a {
+        font-size: 17px;
+    }
+    #header .header-nav-main nav > ul > li.dropdown .dropdown-menu {
+        font-size: 15px;
+    }
+}
+
+#header .header-btn-collapse-nav {
+    margin: 20px 5px 8px 15px;
+}
+
+#footer .contact p {
+    color: #add8e6;
+    font-size: 14px;
+}
+
+#footer .footer-copyright p {
+    color: #fff;
+    font-size: 14px;
+}
+
+#footer .footer-copyright nav ul {
+    font-size: 14px;
+}
